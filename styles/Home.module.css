@@ -2,6 +2,11 @@
   padding: 0 2rem;
 }
 
+.form_container {
+  background-color: red;
+  margin-top: 100px;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
