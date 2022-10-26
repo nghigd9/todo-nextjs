@@ -7,6 +7,8 @@ import TextField from '@atlaskit/textfield';
 import EditFilledIcon from '@atlaskit/icon/glyph/edit-filled';
 import TrashIcon from '@atlaskit/icon/glyph/trash';
 
+import Header from '../components/Header';
+
 // const url = 'http://localhost:3000/api/task';
 const url = 'https://todo-nextjs-pi.vercel.app/api/task';
 
@@ -84,8 +86,9 @@ export default function Home(props) {
     };
 
     return (
-        <div className={styles.main}>
-            <div className={styles.container}>
+        <div className="main">
+            <Header></Header>
+            <div className="container">
                 <form className={styles.form_container}>
                     <TextField
                         className={styles.main_input}

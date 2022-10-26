@@ -15,6 +15,14 @@ a {
   box-sizing: border-box;
 }
 
+.container {
+  padding: 0 12px;
+}
+.main {
+  background-color: #a9bed6;
+  min-height: 100vh;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
