@@ -10,9 +10,9 @@ export default function Header(props) {
                 <Link href="/" className={HeadStyles.logo}>
                     LOGO
                 </Link>
-                <a href="/login" className={HeadStyles.logo}>
+                <Link href="/login" className={HeadStyles.logo}>
                     Login
-                </a>
+                </Link>
             </div>
         </div>
     );
