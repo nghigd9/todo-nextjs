@@ -1,5 +1,4 @@
-import Task from '../../../models/Task';
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../../utils/dbConnect';
 import NextCors from 'nextjs-cors';
 
 // eslint-disable-next-line import/no-anonymous-default-export
