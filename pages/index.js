@@ -7,7 +7,8 @@ import TextField from '@atlaskit/textfield';
 import EditFilledIcon from '@atlaskit/icon/glyph/edit-filled';
 import TrashIcon from '@atlaskit/icon/glyph/trash';
 
-const url = 'http://localhost:3000/api/task';
+// const url = 'http://localhost:3000/api/task';
+const url = 'https://todo-nextjs-pi.vercel.app/';
 
 export default function Home(props) {
     const [tasks, setTasks] = useState(props.tasks);
