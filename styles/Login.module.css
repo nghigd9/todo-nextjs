@@ -21,6 +21,9 @@
 }
 .input_text {
     flex: 1;
+    border: 1px solid #a9bed6;
+    border-radius: 5px;
+    padding: 1px 10px;
 }
 
 .form_group:last-child {

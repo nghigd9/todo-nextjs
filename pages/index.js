@@ -10,7 +10,8 @@ import TrashIcon from '@atlaskit/icon/glyph/trash';
 import Header from '../components/Header';
 
 // const url = 'http://localhost:3000/api/task';
-const url = 'https://todo-nextjs-pi.vercel.app/api/task';
+// const url = 'https://todo-nextjs-pi.vercel.app/api/task';
+const url = process.env.DOMAIN + '/api/task';
 
 export default function Home(props) {
     const [tasks, setTasks] = useState(props.tasks);
